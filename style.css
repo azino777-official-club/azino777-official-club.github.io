@@ -1743,3 +1743,46 @@ margin: 0;
 		margin-bottom: 20px;
 	}
 }
+
+
+@media screen and (max-width: 992px) {
+    html, body {
+        overflow-x: hidden !important;
+        width: 100% !important;
+        max-width: 100vw !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .header, .header-content, main, footer, .footer, .container, .info-block, .slider, .swiper-container {
+        width: 100% !important;
+        min-width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+    }
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    .games-block {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: space-around !important;
+        padding: 10px !important;
+    }
+    
+    .games-block__game {
+        width: 48% !important; 
+        margin-bottom: 15px !important;
+    }
+    .swiper-slide {
+        width: 100% !important; 
+    }
+    
+    .payout, .jackpot, .menu-item-prime {
+        display: none !important;
+
+    .rules {
+        padding: 15px !important;
+        font-size: 14px !important;
+    }
+}
